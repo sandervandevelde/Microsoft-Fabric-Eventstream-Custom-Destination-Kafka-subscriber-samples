@@ -1,4 +1,4 @@
-// Kafka receiver example from Microsoft Fabric Custom Destination
+// Kafka subscriber example from Microsoft Fabric Custom Destination
 
 package EventStream.Sample;
 

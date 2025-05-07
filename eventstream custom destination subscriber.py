@@ -9,7 +9,7 @@
 from confluent_kafka import Consumer, KafkaException, KafkaError
 
 
-connection_string = ""
+connection_string = "Endpoint=sb://"
 event_hub_name = ""
 consumer_group_name = ""
 
