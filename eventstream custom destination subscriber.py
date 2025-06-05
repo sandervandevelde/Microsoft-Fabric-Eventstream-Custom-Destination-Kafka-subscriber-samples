@@ -8,10 +8,9 @@
 
 from confluent_kafka import Consumer, KafkaException, KafkaError
 
-
-connection_string = "Endpoint=sb://"
-event_hub_name = ""
-consumer_group_name = ""
+connection_string = "Endpoint=sb://" # Replace with provided connection string
+event_hub_name = "" # AKA "topic name" in Kafka terminology 
+consumer_group_name = "some_consumer_group" # Optionally, replace with provided consumer group
 
 def get_properties():
     namespace = connection_string.split("//")[1].split(".")[0]
